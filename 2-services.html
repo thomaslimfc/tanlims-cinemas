@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="CSS/styles.css">
+<link rel="icon" href="images/tanlims-logo-kosong-fitted.ico">       
+<style>
+
+footer{
+   margin: auto;
+}
+
+button a:link {
+  color: white;
+  text-decoration: none;
+}
+
+button a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#subtitleFont {
+   font-family:'Tahoma';
+   font-size: 55px;
+   color: ghostwhite;
+   font-weight: bolder;
+              }
+
+.alignCenter{
+  text-align: center;
+}
+
+#headerFont{
+  font-family: 'Tahoma';
+  font-size:  50px;
+  color: black;
+  font-style: bold;
+  text-align: center; 
+}
+
+#titleFont {
+       
+   font-family:'Tahoma';font-size: 65px;
+   color: ghostwhite;
+           }
+
+#movieFont {
+  font-family:'Georgia';
+   font-size: 40px;
+   color: antiquewhite;
+}
+
+#descriptFont {
+  font-family:'Tahoma';
+   font-size: 15px;
+   color: antiquewhite;
+}
+
+.alignCenter{
+  text-align: center;
+}
+
+#subtitleFont {
+   font-family:'Tahoma';
+   font-size: 55px;
+   color: ghostwhite;
+              }
+
+#footerFont {
+   font-family:'Tahoma';
+   font-size: 30px;
+   color: ghostwhite;
+              }
+#mdescriptionFont{
+  font-family:'Tahoma';
+  font-size: 18px;
+  color: antiquewhite;
+}
+
+p{
+    font-family:'Tahoma';
+    font-size: 18px;
+    color: antiquewhite;
+}
+
+body{
+  background-image: url('images/stripes.jpg');
+  background-size: contain;
+}
+
+form{
+    font-size: 35;
+    color: ghostwhite;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+}
+
+.howToorder{
+  background-color: lightsteelblue;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.grid-item {
+  background-color: slategray;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  font-size: 15px;
+  text-align: left;
+}
+.dropbtn {
+  background-color: indianred;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 275px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:steelblue;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+#textCenter{
+    font-family: Tahoma;
+    color: antiquewhite;
+    text-align: center;
+}
+</style>
+
+
+<title>Services</title>
+<head>
+    <header>
+        <br>
+        <table>
+            <tr>
+                <td class="left"><img src="images/tanlims-logo-fitted.png" alt="TanLims Cinemas Logo" height="200" width""></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>              
+                <td><h1><b>Services</b> </h1></td>
+            </tr>
+        </table>
+        <br>
+  
+        <style>
+            header {
+                color: black;
+                font-style: bold;
+                text-align: center;
+                padding: 10px; 
+                background-image: url('images/header-background.png');
+                background-size: contain; 
+                background-repeat: repeat; 
+            }
+  
+            h1 {
+                font-size: 50px;
+                font-family:'Tahoma';
+                color: black; 
+            
+
+            }
+  
+            table {
+                margin: auto;
+            }
+            
+            hr {
+                border: 2px solid yellow;
+                border-radius: 5px; 
+            }
+  
+  
+  
+            
+        </style>
+    </header>
+  
+    
+  </head>  
+
+<!-------------------------------------------------------------------------------------------------------------nav bar---------------------------------------------------------------------->
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+          
+            <ul id="menu">
+                <a href="1-home.html"><li><b>Home</b></li></a>
+                <a href="2-services.html"><li><b>Services</b></li></a>
+                <a href="3-product.html"><li><b>Products</b></li></a>
+                <a href="4-about-us.html"><li><b>About Us</b></li></a>
+                <a href="6-customer-service.html"><li><b>Customer Service</b></li></a>
+            </ul>
+        </div>
+
+  <style>
+          
+    #menuToggle {
+      display: block;
+      position: relative;
+      top: 50px;
+      left: 50px;
+      z-index: 1;
+      -webkit-user-select: none;
+       user-select: none; 
+     }
+          
+     #menuToggle a {
+      text-decoration: none;
+      color: #232323;
+      transition: color 0.3s ease; 
+     }
+          
+     #menuToggle a:hover {
+        color: tomato; }    
+          
+    #menuToggle input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+        -webkit-touch-callout: none; 
+      }
+          
+      #menuToggle span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #cdcdcd;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+        background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+        opacity 0.55s ease; }
+          
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%; }
+          
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%; }
+                
+    #menuToggle input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #232323; }
+          
+    #menuToggle input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2); }
+          
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px); }
+
+
+    #menu {
+      position: absolute;
+      width: 300px;
+      margin: -100px 0 0 -50px;
+      padding: 50px;
+      padding-top: 125px;
+      background: #ededed;
+      list-style-type: none;
+      -webkit-font-smoothing: antialiased;      
+      transform-origin: 0% 0%;
+      transform: translate(-100%, 0);      
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); 
+    }
+
+    #menu li {
+      padding: 10px 0;
+      font-size: 30px; 
+      color: #232323;
+    }
+          
+    #menuToggle input:checked ~ ul {
+      transform: none;
+       }
+  </style>
+    </nav>
+
+<body>
+    <h2 id="subtitleFont" class="alignCenter">Food Shop</h2>
+    <div class="img-container">
+        <img src="images/service_head.png" width="1000" heigth="250">
+    </div>
+    <h3 id="textCenter">You can't really enjoy a full cinema experience without snacks and drinks.</h3>
+               <br>
+    <p id="textCenter">Here you can order snack and drink combos or by itself to endulge yourself in the screenroom. </p> 
+
+<main>
+
+
+
+  
+<div class="grid-container">    
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/1drink.png" width="325" height="325">
+  </div>
+
+<!--------Description----------------------------------------------------------------->
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Single Drink 
+    </h3>
+    <p>
+      1 cup of your preferred drink to enjoy while you enjoy your movie.
+    </p>
+     <h5 id="descriptFont">
+        *Refillable at the Snacks and Drink Counter.
+    </h5>
+      <div class="dropdown">
+      <button class="dropbtn">Select Size</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">Large  | RM 7.00</a>
+          <a href="schedule.html">Medium | RM 6.00</a>
+          <a href="schedule.html">Small  | RM 5.00</a>
+        </div>
+      </div>
+  </div>
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/1corn.png" width="300" height="350">
+  </div>  
+
+<!--------Description----------------------------------------------------------------->
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Single Popcorn
+    </h3>
+    <p>
+      The classic mouth muncher in the cinemas done better here and better enjoyed in the theater.
+    </p>
+    <h5 id="descriptFont">
+
+    </h5>
+      <div class="dropdown">
+       <button class="dropbtn">Select Size</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">Small | RM 7.50</a>
+          <a href="schedule.html">Medium  | RM 13.00</a>
+          <a href="schedule.html">Large | RM 19.50</a>
+        </div>
+      </div>
+</div>
+
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src= "images/1corn2drinks.png" width="400" height="400">
+  </div>
+
+<!--------Description----------------------------------------------------------------->  
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Set A. <br> 1 Medium Popcorn & 2 Medium Drinks
+    </h3>
+    <p>The couples favourite or for two people with 2 drinks and a medium bucket of classic buttered popcorn.</p>
+    <h5 id="descriptFont">
+        *Drinks are Refillable from the Snacks & Drinks counter.
+    </h5>
+      <div class="dropdown">
+      <button class="dropbtn">Order 1 and Select Drinks</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">Pepsi | RM 23.00</a>
+          <a href="schedule.html">7-up  | RM 23.00</a>
+          <a href="schedule.html">Mountain Dew | RM 23.00</a>
+        </div>
+      </div> 
+  </div>
+
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/1corn1drink.png" width="400" height="400">
+  </div>
+
+<!--------Description----------------------------------------------------------------->
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Set B. <br> 1 Small Popcorn and 1 Medium Drink
+    </h3>
+    <p>Watching alone? Don't worry we expected you. A personal small popcorn and a medium drink will accompany you through the movie.</p>
+    <h5 id="descriptFont">
+        *Drinks are refillable at the Snacks & Drinks counter.
+    </h5>
+      <div class="dropdown">
+      <button class="dropbtn">Order 1 and Select Drink</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">Pepsi | RM 15.00</a>
+          <a href="schedule.html">7-up  | RM 15.00</a>
+          <a href="schedule.html">Mountain Dew | RM 15.00</a>
+        </div>
+      </div>
+  </div>
+
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/1chips.png" width="250" height="350">
+  </div>
+
+<!--------Description----------------------------------------------------------------->
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Lays Potato Chips <br>(Multiple Flavours Available)
+    </h3>
+    <p>Lays chips satisfiyingly crispy and perferctly salted on every chip. Bring them with you inside and be careful not to make too much sounds.</p>
+    <h5 id="descriptFont">
+        *Flavours available are depended on stock or limited availaility.
+    </h5>
+      <div class="dropdown">
+      <button class="dropbtn">Select & Buy Flavour</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">Origanal Salted | RM 7.00</a>
+          <a href="schedule.html">Sour Cream & Onion | RM 7.00</a>
+          <a href="schedule.html">Hot & Spicy | RM 7.00</a>
+        </div>
+      </div>
+  </div>
+
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/1nuggets.png" width="350" height="250">
+  </div>
+
+<!--------Description----------------------------------------------------------------->
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Chicken Nuggets
+    </h3>
+    <p>Bite sized chicken nuggets with bbq diping sauce to fill ur stomach and mouth with flavour.</p>
+    <h5 id="descriptFont">
+    </h5>
+      <div class="dropdown">
+      <button class="dropbtn">Select How Many Pieces</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">10pcs | RM 12.00</a>
+          <a href="schedule.html">15pcs | RM 17.50</a>
+          <a href="schedule.html">20pcs | RM 22.00</a>
+        </div>
+      </div>
+  </div>
+
+
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/1water.png" width="150" height="350">
+  </div>
+
+<!--------Description----------------------------------------------------------------->  
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Mineral Water
+    </h3>
+    <p>Staying healthy and refreshed with ice-cold mineral water.</p>
+
+    <h5 id="descriptFont">
+    </h5>
+      <button class="dropbtn"><a href="schedule.html">Buy 1 Mineral Water</a></button>
+  </div>
+
+
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/1m&m.png" width="350" height="350">
+  </div>
+
+<!--------Description----------------------------------------------------------------->  
+  <div class="grid-item">
+    <h3 id="movieFont">
+      M&M Candy (Original & Peanut)
+    </h3>
+    <p>Fun candy snack for movie watchers for years now can be enjoyed in theaters as well</p>
+
+    <h5 id="descriptFont">
+      *Availability might be affected by limited stock.
+    </h5>
+      <form>
+        <input type="checkbox" id="M&M1" name="Original" value="M&M">
+        <label for="M&M1">Original M&M's</label><br>
+        <input type="checkbox" id="M&M2" name="Peanut" value="P.M&M">
+        <label for="M&M2">Peanut M&M's</label><br>
+      </form>
+      <div class="dropdown">
+       <button class="dropbtn">How Many</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">1 | RM1.00</a>
+          <a href="schedule.html">3  | RM 2.50</a>
+          <a href="schedule.html">5 | RM 5.00</a>
+        </div>
+      </div>
+  </div>
+</div>
+
+</main>
+
+<hr>
+<!---------------------------------------- "Footer" SECTION ---------------------------------------->
+
+<footer>
+    <div class="centerfooter">
+      <table>
+          <tr valign="top">
+              <td>
+                  <h3>Contact Us</h3>
+                  <p id="ssm-company-name">TanLims Cinemas (Malaysia) Pte. Ltd.</p>
+                  <p id="ssm-business-code">195901000262 (8888-M)</p>
+                  <p id="address">77, Lorong Lembah Permai 3, 11200 Tanjung Bungah, Pulau Pinang.</p>
+                  <p id="customer-care-hotline">1300-222-888</p>
+                  <p id="email">customercare@tanlimscinemas.com.my</p>
+  
+                <style>
+                    #ssm-company-name {
+                      font-family: Verdana;
+                      padding-bottom: 0px; }
+  
+                    #ssm-business-code {
+                      font-family: Verdana;
+                      padding-bottom: 25px; }
+  
+                    #address {
+                      font-family: Verdana;
+                      padding-bottom: 25px; }
+  
+                    #customer-care-hotline {
+                      font-family: Verdana;
+                      padding-bottom: 0px; }
+  
+                    #email {
+                      font-family: Verdana;
+                      color: #ffff00;
+                      padding-bottom: 10px; }
+                </style>
+              </td>
+            
+              <td></td><td></td><td></td><td></td><td></td>
+              <td></td><td></td><td></td><td></td><td></td>
+              <td></td><td></td><td></td><td></td><td></td>
+              <td></td><td></td><td></td><td></td><td></td>
+              <td></td><td></td><td></td><td></td><td></td>
+  
+              <td>
+                <table>
+                  <tr>
+                    <h3>Follow Us</h3>
+                  </tr>
+  
+                    <tr>
+                        <td>
+                            <a
+                                href="https://www.facebook.com" target="_blank">
+                                <img src="http://assets.stickpng.com/thumbs/584ac2d03ac3a570f94a666d.png" alt="Facebook" width="50" height="50">
+                            </a>
+                        </td>
+  
+                        <td>
+                            <a
+                                href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
+                                <img src="https://www.transparentpng.com/thumb/logo-instagram/YfpFOL-logo-instagram-free-transparent.png" alt="Instagram" width="50" height="50"></td>                            </a>
+                            </a>
+                        </td>
+                        
+                        <td>
+                            <a
+                                href="https://www.youtube.com" target="_blank">
+                                <img src="https://www.freeiconspng.com/thumbs/youtube-logo-png/hd-youtube-logo-png-transparent-background-20.png" alt="YouTube" width="50" height="50">
+                            </a>
+                        </td>
+  
+                        <td>
+                            <a
+                                href="https://twitter.com/?lang=en" target="_blank">
+                                <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt="Twitter" width="50" height="50">
+                            </a>
+                        </td>
+  
+                        <td>
+                            <a
+                                href="https://web.whatsapp.com" target="_blank">
+                                <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" alt="WhatsApp" width="50" height="50">
+                            </a>
+                        </td>
+                    </tr>
+  
+                    <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                </table>
+  
+                <table>
+                    <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+  
+                    <tr>
+                        <td>
+                            <a href="7-privacy-policy.html" class="privacy-policy-button"><b>Privacy Policy</b></a>
+                        </td>
+                    </tr>
+  
+                    <style>
+                        .privacy-policy-button {
+                            box-shadow: inset 0px 0px 0px 0px #dcecfb;
+                            background: linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+                            background-color: #bddbfa;
+                            border-radius: 27px;
+                            border: 5px solid #84bbf3;
+                            display: inline-block;
+                            cursor: pointer;
+                            color: black;
+                            font-family: Verdana;
+                            font-size: 15px;
+                            font-weight: bold;
+                            padding: 10px 70px;
+                            text-decoration: none;
+                            text-shadow: 0px 1px 0px #528ecc; }
+  
+                        .privacy-policy-button:hover {
+                            background: linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+                            background-color: #80b5ea; }
+                        
+                        .privacy-policy-button:active {
+                            position: relative;
+                            top: 1px; }
+                    </style>
+                </table>                   
+            </td>
+        </tr>
+    </table>
+  
+  
+  
+        <img id="we-accept" src="images/we-accept.png" alt="We Accept" width="1300" height=auto>
+   </div>
+ 
+        <style>
+       .centerfooter{
+          align-content: center;
+          text-align: center;               
+        }
+  
+        .centerfooter table{
+          margin: auto;
+                  
+        }
+
+        footer h3{
+            color: antiquewhite;
+        }
+
+        hr {
+            border: 2px solid yellow;
+            border-radius: 5px; 
+          }
+  
+          
+        </style>
+  <hr>
+  
+
+  
+        <h4 id="copyright">Copyright © 2021 TanLims Cinemas (Malaysia) Pte. Ltd.</h4>
+        <h4 id="rights">All rights reserved.</h4>
+  
+        <style>
+        #copyright {
+        font-size: 25px;
+        font-family:'Tahoma';
+        color: antiquewhite;
+        text-align: center; }
+  
+        #rights {
+        font-size: 25px;
+        font-family:'Tahoma';
+        color: antiquewhite;
+        text-align: center; }
+        </style>
+     
+</footer>
+
+<hr>
+</body>
+</html>

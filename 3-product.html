@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="CSS/styles.css">
+<link rel="icon" href="images/tanlims-logo-kosong-fitted.ico">       
+<style>
+  footer{
+    margin: auto;
+  }
+
+
+#headerFont{
+  font-family: 'Tahoma';
+  font-size:  50px;
+  color: black;
+  font-style: bold;
+  text-align: center; 
+}
+
+#titleFont {
+       
+   font-family:'Tahoma';font-size: 65px;
+   color: ghostwhite;
+           }
+
+#movieFont {
+  font-family:'Georgia';
+   font-size: 40px;
+   color: antiquewhite;
+}
+
+#descriptFont {
+  font-family:'Tahoma';
+   font-size: 15px;
+   color: antiquewhite;
+}
+
+.alignCenter{
+  text-align: center;
+}
+
+#subtitleFont {
+   font-family:'Tahoma';
+   font-size: 55px;
+   color: ghostwhite;
+   font-weight: bolder
+              }
+
+#footerFont {
+   font-family:'Tahoma';
+   font-size: 30px;
+   color: ghostwhite;
+              }
+#mdescriptionFont{
+  font-family:'Tahoma';
+  font-size: 18px;
+  color: antiquewhite;
+}
+
+body{
+  background-image: url('images/stripes.jpg');
+  background-size: contain;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+}
+
+.howToorder{
+  background-color: lightsteelblue;
+}
+
+
+.grid-item {
+  background-color: slategray;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  font-size: 15px;
+  text-align: left;
+}
+.dropbtn {
+  background-color: indianred;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:steelblue;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+
+
+<title>Products</title>
+<head>
+  <header>
+    <br>
+    <table>
+        <tr>
+            <td class="left"><img src="images/tanlims-logo-fitted.png" alt="TanLims Cinemas Logo" height="200" width""></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> 
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>             
+            <td><h1><b>Product</b> </h1></td>
+        </tr>
+    </table>
+    <br>
+
+    <style>
+        header {
+          color: black;
+          font-style: bold;
+          text-align: center;
+          padding: 10px; 
+          background-image: url('images/header-background.png');
+          background-size: contain; 
+          background-repeat: repeat; }
+
+        h1 {
+          font-size: 50px;
+          font-family:'Tahoma';
+          color: black; 
+        
+
+        }
+
+        table {
+          margin: auto;
+        }
+        
+        hr {
+          border: 2px solid yellow;
+          border-radius: 5px; 
+        }
+
+
+
+        
+    </style>
+</header>
+
+
+  </head>  
+
+<!-------------------------------------------------------------------------------------------------------------nav bar---------------------------------------------------------------------->
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+          
+            <ul id="menu">
+                <a href="1-home.html"><li><b>Home</b></li></a>
+                <a href="2-services.html"><li><b>Services</b></li></a>
+                <a href="3-product.html"><li><b>Products</b></li></a>
+                <a href="4-about-us.html"><li><b>About Us</b></li></a>
+                <a href="6-customer-service.html"><li><b>Customer Service</b></li></a>
+            </ul>
+        </div>
+
+  <style>
+          
+    #menuToggle {
+      display: block;
+      position: relative;
+      top: 50px;
+      left: 50px;
+      z-index: 1;
+      -webkit-user-select: none;
+       user-select: none; 
+     }
+          
+     #menuToggle a {
+      text-decoration: none;
+      color: #232323;
+      transition: color 0.3s ease; 
+     }
+          
+     #menuToggle a:hover {
+        color: tomato; }    
+          
+    #menuToggle input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+        -webkit-touch-callout: none; 
+      }
+          
+      #menuToggle span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #cdcdcd;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+        background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+        opacity 0.55s ease; }
+          
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%; }
+          
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%; }
+                
+    #menuToggle input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #232323; }
+          
+    #menuToggle input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2); }
+          
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px); }
+
+
+    #menu {
+      position: absolute;
+      width: 300px;
+      margin: -100px 0 0 -50px;
+      padding: 50px;
+      padding-top: 125px;
+      background: #ededed;
+      list-style-type: none;
+      -webkit-font-smoothing: antialiased;      
+      transform-origin: 0% 0%;
+      transform: translate(-100%, 0);      
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); 
+    }
+
+    #menu li {
+      padding: 10px 0;
+      font-size: 30px; 
+      color: #232323;
+    }
+          
+    #menuToggle input:checked ~ ul {
+      transform: none;
+       }
+  </style>
+    </nav>
+
+<body>
+	<h2 id="subtitleFont" class="alignCenter"><strong></strong>Schedule</strong></h2>
+
+<main>
+
+
+
+  
+<!--------Grid Call----------------------------------------------------------------->
+  <div class="grid-container">
+
+
+
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/blackwidow.jpg" width="250" height="350">
+  </div>
+
+<!--------Description----------------------------------------------------------------->
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Black Widow<img src=images/rating-system-p13.png height="40" width="40">
+    </h3>
+    <p id="mdescriptionFont">
+      Natasha Romanoff, a former KGB spy, is shocked to find out that her ex handler, General Dreykov, is still alive. While evading capture by Taskmaster, she is forced to confront her dark past.
+    </p>
+     <h5 id="descriptFont">
+      Starring: Scarlett Johansson, Florence Pugh, David Harbour.<br>
+
+      Genre: Action, Adventure, Sci-Fi
+
+    </h5>
+      <div class="dropdown">
+      <button class="dropbtn">Order Tickets</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">Monday 6-12-2021 | 12.45pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Tuesday 7-12-2021 | 9.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Wednesday 8-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Thursday 9-12-2021 | 7.45pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Friday 10-12-2021 | 8.15pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Saturday 11-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Sunday 12-12-2021 | 10.15pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+        </div>
+      </div>
+    </div>
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/notimetodie.jpg" width="250" height="350">
+  </div>  
+
+<!--------Description----------------------------------------------------------------->
+  <div class="grid-item">
+    <h3 id="movieFont">
+      No Time To Die<img src=images/rating-system-p13.png height="40" width="40">
+    </h3>
+    <p id="mdescriptionFont">
+      James Bond is enjoying a tranquil life in Jamaica after leaving active service. However, his peace is short-lived as his old CIA friend, Felix Leiter, shows up and asks for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond on the trail of a mysterious villain who's armed with a dangerous new technology.
+    </p>
+    <h5 id="descriptFont">
+      Starring: Daniel Craig, Ana de Armas, Rami Malek.<br>
+
+      Genre: Action, Adventure,Thriller
+
+    </h5>
+      <div class="dropdown">
+      <button class="dropbtn">Order Tickets</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">Monday 6-12-2021 | 7.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Tuesday 7-12-2021 | 8.15pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Wednesday 8-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Thursday 9-12-2021 | 9.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Friday 10-12-2021 | 11.30pm<<br>Adults RM10.00 | Children & Seniors RM7.50/a>
+          <a href="schedule.html">Saturday 11-12-2021 | 12.00am<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Sunday 12-12-2021 | 10.40am<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+        </div>
+      </div>
+</div>
+
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src= "images/raya.jpg" width="250" height="350">
+  </div>
+
+<!--------Description----------------------------------------------------------------->  
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Raya and The Last Dragon<img src=images/rating-system-u.png height="40" width="40">
+    </h3>
+    <p id="mdescriptionFont">
+       Raya, a warrior, sets out to track down Sisu, a dragon, who transferred all her powers into a magical gem which is now scattered all over the kingdom of Kumandra, dividing its people.
+    </p>
+    <h5 id="descriptFont">
+      Starring: Kelly Marie Tran, Nora Lum,Gemma Chan.<br>
+
+      Genre: Animation, Action, Adventure, Comedy, Drama, Family, Fantasy
+
+    </h5>
+      <div class="dropdown">
+      <button class="dropbtn">Order Tickets</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">Monday 6-12-2021 | 7.45pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Tuesday 7-12-2021 | 3.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Wednesday 8-12-2021 | 9.15pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Thursday 9-12-2021 | 10.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Friday 10-12-2021 | 8.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Saturday 11-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Sunday 12-12-2021 | 9.25pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+        </div>
+      </div> 
+  </div>
+
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/dune.jpg" width="250" height="350">
+  </div>
+
+<!--------Description----------------------------------------------------------------->
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Dune <img src=images/rating-system-p13.png height="40" width="40">
+    </h3>
+    <p id="mdescriptionFont">
+    Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence, only those who can conquer their own fear will survive.
+    </p>
+    <h5 id="descriptFont">
+      Starring: Timothée Chalamet, Rebecca Ferguson, Zendaya.<br>
+
+      Genre: Action, Adventure, Drama, Sci-Fi
+
+    </h5>
+      <div class="dropdown">
+      <button class="dropbtn">Order Tickets</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">Monday 6-12-2021 | 12.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Tuesday 7-12-2021 | 3.45pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Wednesday 8-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Thursday 9-12-2021 | 10.45pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Friday 10-12-2021 | 8.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Saturday 11-12-2021 | 9.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Sunday 12-12-2021 | 11.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+        </div>
+      </div>
+  </div>
+
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/shangchi.jpg" width="250" height="350">
+  </div>
+
+<!--------Description----------------------------------------------------------------->
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Shang-Chi <img src=images/rating-system-p13.png height="40" width="40">
+    </h3>
+    <p id="mdescriptionFont">
+    Martial-arts master Shang-Chi confronts the past he thought he left behind when he's drawn into the web of the mysterious Ten Rings organization.
+    </p>
+    <h5 id="descriptFont">
+      Starring: Simu Liu, Michelle Yeoh, Nora Lum, Ben Kingsley, Tony Chiu-Wai Leung.<br>
+
+      Genre: Action, Adventure, Fantasy, Sci-Fi
+
+    </h5>
+      <div class="dropdown">
+      <button class="dropbtn">Order Tickets</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">Monday 6-12-2021 | 8.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Tuesday 7-12-2021 | 9.15pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Wednesday 8-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Thursday 9-12-2021 | 10.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Friday 10-12-2021 | 8.45pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Saturday 11-12-2021 | 11.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Sunday 12-12-2021 | 9.45pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+        </div>
+      </div>
+  </div>
+
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/chinadoc.jpg" width="250" height="350">
+  </div>
+
+<!--------Description----------------------------------------------------------------->
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Chinese Doctor <img src=images/rating-system-p13.png height="40" width="40">
+    </h3>
+    <p id="mdescriptionFont"> 
+    The film follows the story of frontline medical workers fought against the COVID-19 pandemic in Wuhan Jinyintan Hospital, Hubei, China.
+    </p>
+    <h5 id="descriptFont">
+      Starring: Zhang Hanyu, Yuan Quan, Zhu Yawen, and Li Chen.<br>
+
+      Genre: Drama
+
+    </h5>
+      <div class="dropdown">
+      <button class="dropbtn">Order Tickets</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">Monday 6-12-2021 | 8.45pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Tuesday 7-12-2021 | 7.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Wednesday 8-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Thursday 9-12-2021 | 8.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Friday 10-12-2021 | 9.45pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Saturday 11-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Sunday 12-12-2021 | 10.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+        </div>
+      </div>
+  </div>
+
+
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/sinkhole.jpg" width="250" height="350">
+  </div>
+
+<!--------Description----------------------------------------------------------------->  
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Sinkhole <img src=images/rating-system-p13.png height="40" width="40">
+    </h3>
+    <p id="mdescriptionFont">
+    An average man's house, that took 11 years to obtain, but going down a sinkhole 500 meters underground in a minute.
+    </p>
+
+    <h5 id="descriptFont">
+      Starring: Lee Kwang-Soo, Kim Hye-Jun, Chang Seung-Won, Nam Da-Reum.<br>
+
+      Genre: Action, Comedy, Drama
+    </h5>
+      <div class="dropdown">
+      <button class="dropbtn">Order Tickets</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">Monday 6-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Tuesday 7-12-2021 | 8.45pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Wednesday 8-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Thursday 9-12-2021 | 9.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Friday 10-12-2021 | 11pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Saturday 11-12-2021 | 10.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Sunday 12-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+        </div>
+      </div>
+  </div>
+
+
+<!--------Image----------------------------------------------------------------->
+  <div class="grid-item">
+    <img src="images/iceroad.jpg" width="250" height="350">
+  </div>
+
+<!--------Description----------------------------------------------------------------->  
+  <div class="grid-item">
+    <h3 id="movieFont">
+      Ice Road <img src=images/rating-system-p13.png height="40" width="40">
+    </h3>
+    <p id="mdescriptionFont">
+    After a remote diamond mine collapses in the far northern regions of Canada, an ice driver leads an implausible rescue mission over a frozen ocean to save the lives of trapped miners despite thawing waters and a threat they never see coming.
+    </p>
+
+    <h5 id="descriptFont">
+      Starring: Liam Neeson, Amber Midthunder, Marcus Thomas, Laurence Fishburne.<br>
+
+      Genre: Action, Adventure, Drama, Thriller
+    </h5>
+      <div class="dropdown">
+      <button class="dropbtn">Order Tickets</button>
+        <div class="dropdown-content">
+          <a href="schedule.html">Monday 6-12-2021 | 8.30pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Tuesday 7-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Wednesday 8-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Thursday 9-12-2021 | 10.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Friday 10-12-2021 | 8.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Saturday 11-12-2021 | 9.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+          <a href="schedule.html">Sunday 12-12-2021 | 11.00pm<br>Adults RM10.00 | Children & Seniors RM7.50</a>
+        </div>
+      </div>
+  </div>
+</div>
+</main>
+
+<hr>
+<!---------------------------------------- "Footer" SECTION ---------------------------------------->
+
+<footer>
+  <div class="centerfooter">
+    <table>
+        <tr valign="top">
+            <td>
+                <h3>Contact Us</h3>
+                <p id="ssm-company-name">TanLims Cinemas (Malaysia) Pte. Ltd.</p>
+                <p id="ssm-business-code">195901000262 (8888-M)</p>
+                <p id="address">77, Lorong Lembah Permai 3, 11200 Tanjung Bungah, Pulau Pinang.</p>
+                <p id="customer-care-hotline">1300-222-888</p>
+                <p id="email">customercare@tanlimscinemas.com.my</p>
+
+              <style>
+                  #ssm-company-name {
+                    font-family: Verdana;
+                    padding-bottom: 0px; }
+
+                  #ssm-business-code {
+                    font-family: Verdana;
+                    padding-bottom: 25px; }
+
+                  #address {
+                    font-family: Verdana;
+                    padding-bottom: 25px; }
+
+                  #customer-care-hotline {
+                    font-family: Verdana;
+                    padding-bottom: 0px; }
+
+                  #email {
+                    font-family: Verdana;
+                    color: #ffff00;
+                    padding-bottom: 10px; }
+              </style>
+            </td>
+          
+            <td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td>
+
+            <td>
+              <table>
+                <tr>
+                  <h3>Follow Us</h3>
+                </tr>
+
+                  <tr>
+                      <td>
+                          <a
+                              href="https://www.facebook.com" target="_blank">
+                              <img src="http://assets.stickpng.com/thumbs/584ac2d03ac3a570f94a666d.png" alt="Facebook" width="50" height="50">
+                          </a>
+                      </td>
+
+                      <td>
+                          <a
+                              href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
+                              <img src="https://www.transparentpng.com/thumb/logo-instagram/YfpFOL-logo-instagram-free-transparent.png" alt="Instagram" width="50" height="50"></td>                            </a>
+                          </a>
+                      </td>
+                      
+                      <td>
+                          <a
+                              href="https://www.youtube.com" target="_blank">
+                              <img src="https://www.freeiconspng.com/thumbs/youtube-logo-png/hd-youtube-logo-png-transparent-background-20.png" alt="YouTube" width="50" height="50">
+                          </a>
+                      </td>
+
+                      <td>
+                          <a
+                              href="https://twitter.com/?lang=en" target="_blank">
+                              <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt="Twitter" width="50" height="50">
+                          </a>
+                      </td>
+
+                      <td>
+                          <a
+                              href="https://web.whatsapp.com" target="_blank">
+                              <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" alt="WhatsApp" width="50" height="50">
+                          </a>
+                      </td>
+                  </tr>
+
+                  <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+              </table>
+
+              <table>
+                  <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+
+                  <tr>
+                      <td>
+                          <a href="7-privacy-policy.html" class="privacy-policy-button"><b>Privacy Policy</b></a>
+                      </td>
+                  </tr>
+
+                  <style>
+                      .privacy-policy-button {
+                          box-shadow: inset 0px 0px 0px 0px #dcecfb;
+                          background: linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+                          background-color: #bddbfa;
+                          border-radius: 27px;
+                          border: 5px solid #84bbf3;
+                          display: inline-block;
+                          cursor: pointer;
+                          color: black;
+                          font-family: Verdana;
+                          font-size: 15px;
+                          font-weight: bold;
+                          padding: 10px 70px;
+                          text-decoration: none;
+                          text-shadow: 0px 1px 0px #528ecc; }
+
+                      .privacy-policy-button:hover {
+                          background: linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+                          background-color: #80b5ea; }
+                      
+                      .privacy-policy-button:active {
+                          position: relative;
+                          top: 1px; }
+                  </style>
+              </table>                   
+          </td>
+      </tr>
+    </table>
+
+
+
+    <img id="we-accept" src="images/we-accept.png" alt="We Accept" width="1300" height=auto>
+  </div>
+
+  <style>
+     .centerfooter{
+        align-content: center;
+        text-align: center;               
+      }
+
+      .centerfooter table{
+        margin: auto;
+                
+      }
+
+      hr {
+        border: 2px solid yellow;
+        border-radius: 5px; 
+      }
+
+      h3{
+        color: antiquewhite;
+      }
+
+
+      p{
+        color: antiquewhite;
+      }
+
+        
+  </style>
+
+<br>
+<br>
+<hr>
+
+  <h4 id="copyright">Copyright © 2021 TanLims Cinemas (Malaysia) Pte. Ltd.</h4>
+  <h4 id="rights">All rights reserved.</h4>
+
+  <style>
+      #copyright {
+      font-size: 25px;
+      font-family:'Tahoma';
+      color: antiquewhite;
+      text-align: center; }
+
+      #rights {
+      font-size: 25px;
+      font-family:'Tahoma';
+      color: antiquewhite;
+      text-align: center; }
+   </style>
+   
+  </footer>
+  <hr>
+</body>
+</html>

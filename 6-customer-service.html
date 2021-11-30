@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TanLims Cinemas Homapage</title>
+        <link rel="stylesheet" href="9-style.css">
+        <link rel="icon" href="images/tanlims-logo-kosong-fitted.ico">
+    </head>
+
+<div id="wrapper">
+
+<!---------------------------------------- "Header" SECTION ---------------------------------------->
+    
+<header>
+    <br>
+    <table>
+        <tr>
+            <td class="left"><img src="images/tanlims-logo-fitted.png" alt="TanLims Cinemas Logo" height="200" width""></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>              
+            <td><h1>Customer Service</h1></td>
+        </tr>
+    </table>
+    <br>
+
+    <style>
+        header {
+            color: black;
+            font-style: bold;
+            text-align: center;
+            padding: 10px;
+            background-image: url('images/header-background.png');
+            background-size: contain; 
+            background-repeat: repeat; 
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family:'Tahoma';
+            color: black; 
+        }
+
+        table {
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px; 
+        }
+        
+        hr {
+            border: 2px solid yellow;
+            border-radius: 5px; 
+        }
+
+        header table{
+            margin: auto;
+        }
+
+
+
+        
+    </style>
+</header>
+
+
+    
+
+<!---------------------------------------- "Navigation" SECTION ---------------------------------------->
+
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+          
+            <ul id="menu">
+                <a href="1-home.html"><li><b>Home</b></li></a>
+                <a href="2-services.html"><li><b>Services</b></li></a>
+                <a href="3-product.html"><li><b>Products</b></li></a>
+                <a href="4-about-us.html"><li><b>About Us</b></li></a>
+                <a href="6-customer-service.html"><li><b>Customer Service</b></li></a>
+            </ul>
+        </div>
+
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-image: url(images/stripes.jpg);
+                background-size: contain;
+                color: #cdcdcd;
+                font-family: "Avenir Next", "Avenir", sans-serif; }
+          
+            #menuToggle {
+                display: block;
+                position: relative;
+                top: 50px;
+                left: 50px;
+                z-index: 1;
+                -webkit-user-select: none;
+                user-select: none; }
+          
+            #menuToggle a {
+                text-decoration: none;
+                color: #232323;
+                transition: color 0.3s ease; }
+          
+            #menuToggle a:hover {
+                color: tomato; }    
+          
+            #menuToggle input {
+                display: block;
+                width: 40px;
+                height: 32px;
+                position: absolute;
+                top: -7px;
+                left: -5px;
+                cursor: pointer;
+                opacity: 0;
+                z-index: 2;
+                -webkit-touch-callout: none; }
+          
+            #menuToggle span {
+                display: block;
+                width: 33px;
+                height: 4px;
+                margin-bottom: 5px;
+                position: relative;
+                background: #cdcdcd;
+                border-radius: 3px;
+                z-index: 1;
+                transform-origin: 4px 0px;
+                transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                            background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                            opacity 0.55s ease; }
+          
+            #menuToggle span:first-child {
+                transform-origin: 0% 0%; }
+          
+            #menuToggle span:nth-last-child(2) {
+                transform-origin: 0% 100%; }
+                
+            #menuToggle input:checked ~ span {
+                opacity: 1;
+                transform: rotate(45deg) translate(-2px, -1px);
+                background: #232323; }
+          
+            #menuToggle input:checked ~ span:nth-last-child(3) {
+                opacity: 0;
+                transform: rotate(0deg) scale(0.2, 0.2); }
+          
+            #menuToggle input:checked ~ span:nth-last-child(2) {
+                transform: rotate(-45deg) translate(0, -1px); }
+          
+            #menu {
+                position: absolute;
+                width: 300px;
+                margin: -100px 0 0 -50px;
+                padding: 50px;
+                padding-top: 125px;
+                background: #ededed;
+                list-style-type: none;
+                -webkit-font-smoothing: antialiased;      
+                transform-origin: 0% 0%;
+                transform: translate(-100%, 0);      
+                transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); }
+          
+            #menu li {
+                padding: 10px 0;
+                font-size: 30px; }
+          
+            #menuToggle input:checked ~ ul {
+                transform: none; }
+        </style>
+    </nav>
+
+     
+<br><br><br><br>
+
+    <body>
+        <main>
+            <div id="fillsection">
+            <div>
+                
+            <hr>
+            
+                
+
+<!---------------------------------------- "Contact Us" SECTION ---------------------------------------->
+                    <div class="content">
+                        <h2>Contact Us</h2>
+                
+                        <ul>
+                            <li class="contact-us-li"><strong>Address:</strong> 77, Lorong Lembah Permai 3, 11200 Tanjung Bungah, Pulau Pinang.</li>
+                        </ul>
+                        <ul>
+                            <li class="contact-us-li"><strong>Business Hours:</strong> 09:15 a.m. - 11:30 p.m. (No Holidays)</li>
+                        </ul>
+                        <ul>
+                            <li class="contact-us-li"><strong>Customer Care Hotline:</strong> 1300-222-888</li>
+                        </ul>
+                        <ul>
+                            <li class="contact-us-li"><strong>Email:</strong> customercare@tanlimscinemas.com</li>
+                        </ul>
+                    </div>
+                    <hr>                                                                  
+    <!---------------------------------------- "Customer's Feedback e-Form" SECTION ---------------------------------------->
+                    <div class="content1">
+                        <h2>Customer's Feedback e-Form</h2>
+                        <h3>Open a Support Ticket</h3>
+                        <p>We'd love to hear from you so feel free to drop us a line if you have encountered problems or issues related to our products!</p>
+                    
+
+                        <style>
+                            .content{
+                                max-width: 1300px;
+                                margin: auto;
+                                padding: 10px;
+                            }
+
+                            .content1{
+                                max-width: 1300px;
+                                margin: auto;
+                                padding: 10px; 
+                            }
+                        </style>
+                    <br>
+            
+                        <form class="action"="mailto:info@tanlimscinemas.com" method="post" enctype="text/plain">
+                            <table>
+                                <tr>
+                                    <td><label><strong>*Full Name (required):</strong></label>
+                                </tr>
+                                <tr>
+                                    <td><input id="full-name-box" type="text" name="your name" value="" size="158" required></td>
+                                </tr>
+                            </table>
+                                
+                            <table>
+                                <tr>
+                                    <td colspan="2"><label><strong>Contact Number:</strong></label></td>
+                                </tr>
+                                <tr>
+                                    <td><p>+60</p></td>
+                                    <td><input id="contact-number-box" type="tel" name="your contact number" placeholder="12-3456789" value="" pattern="[0-9]{3}-[0-9]{7}" size="149"></td>
+                                </tr>
+                            </table>
+
+                            <table>
+                                <tr>
+                                    <td><label><strong>Email Address:</strong></label></td>
+                                </tr>
+                                <tr>
+                                    <td><input id="email-address-box" type="email" name="your email" value="" size="158"></td>
+                                </tr>
+                            </table>
+
+                            <table>
+                                <tr>
+                                    <td><label><strong>*Your Message (required):</strong></label></td>
+                                    <td rowspan="2"><textarea name="your message" cols="110" rows="13" required></textarea></td>
+
+                                </tr>
+
+                                <tr></tr>
+                                <tr></tr>
+                                <tr></tr>
+
+                                <tr>
+                                    <td></td>
+
+                                    <td><input id="submit-button" type="submit" name=""></td>   
+                                
+                                    <style>
+                                        #submit-button {
+                                            box-shadow:inset 0px 0px 0px 0px #fff6af;
+                                            background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+                                            background-color:#ffec64;
+                                            border-radius:25px;
+                                            border:3px solid #ffaa22;
+                                            display:inline-block;
+                                            cursor:pointer;
+                                            color:#333333;
+                                            font-family:Verdana;
+                                            font-size:15px;
+                                            font-weight:bold;
+                                            padding:10px 30px;
+                                            text-decoration:none;
+                                            text-shadow:0px 0px 0px #ffee66; }
+
+                                        #submit-button:hover {
+                                            background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+                                            background-color:#ffab23; }
+
+                                        #submit-button:active {
+                                            position:relative;
+                                            top:1px; }
+                                    </style>
+                                </tr>
+                            </table>
+                            
+                            <style>
+                                #full-name-box {
+                                    padding-bottom: 10px; }
+                                    
+                                #contact-number-box {
+                                    padding-bottom: 10px; }
+
+                                #email-address-box {
+                                    padding-bottom: 10px; } 
+                            </style>                   
+                        </form>
+                    </div>
+
+                    <br>                                     
+    
+                </div>
+            </div>
+        </main>
+    </body>
+
+        <style>
+            /* #fillsection
+                text-align: center;
+            }{ */
+
+            /* #fillsection ul{
+                list-style-type: none;
+            } */
+
+            /* #fillsection table{
+                margin: auto;
+            } */
+        </style>
+
+<hr>
+
+<!---------------------------------------- "Footer" SECTION ---------------------------------------->
+        
+        <footer>
+            <table class="follow-us">
+                <tr>
+                    <h3 id="follow-us-title">Follow Us</h3>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <a
+                            href="https://www.facebook.com" target="_blank">
+                            <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook" width="50" height="50">
+                        </a>
+                    </td>
+    
+                    <td>
+                        <a
+                            href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
+                            <img src="https://www.transparentpng.com/thumb/logo-instagram/YfpFOL-logo-instagram-free-transparent.png" alt="Instagram" width="50" height="50"></td>                            </a>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a
+                            href="https://www.youtube.com" target="_blank">
+                            <img src="https://www.freeiconspng.com/thumbs/youtube-logo-png/hd-youtube-logo-png-transparent-background-20.png" alt="YouTube" width="50" height="50">
+                        </a>
+                    </td>
+    
+                    <td>
+                        <a
+                            href="https://twitter.com/?lang=en" target="_blank">
+                            <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt="Twitter" width="50" height="50">
+                        </a>
+                    </td>
+    
+                    <td>
+                        <a
+                            href="https://web.whatsapp.com" target="_blank">
+                            <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" alt="WhatsApp" width="50" height="50">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+    
+            <table class="follow-us">
+                <tr>
+                    <td>
+                        <a href="7-privacy-policy.html" class="privacy-policy-button"><b>Privacy Policy</b></a>
+                    </td>
+                </tr>
+    
+                <style>
+                    .privacy-policy-button {
+                        box-shadow: inset 0px 0px 0px 0px #dcecfb;
+                        background: linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+                        background-color: #bddbfa;
+                        border-radius: 27px;
+                        border: 5px solid #84bbf3;
+                        display: inline-block;
+                        cursor: pointer;
+                        color: black;
+                        font-family: Verdana;
+                        font-size: 15px;
+                        font-weight: bold;
+                        padding: 10px 70px;
+                        text-decoration: none;
+                        text-shadow: 0px 1px 0px #528ecc; }
+    
+                    .privacy-policy-button:hover {
+                        background: linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+                        background-color: #80b5ea; }
+                    
+                    .privacy-policy-button:active {
+                        position: relative;
+                        top: 1px; }
+                </style>
+            </table>
+
+            <style>
+                #follow-us-title {
+                    text-align: center;    
+                }
+
+                .follow-us {
+                    margin: auto;                       
+                }
+            </style>
+            
+        <hr>
+
+            <h4 id="copyright">Copyright © 2021 TanLims Cinemas (Malaysia) Pte. Ltd.</h4>
+            <h4 id="rights">All rights reserved.</h4>
+    
+            <style>
+                #copyright {
+                    font-size: 25px;
+                    font-family:'Tahoma';
+                    color: antiquewhite;
+                    text-align: center;
+                }
+    
+                #rights {
+                    font-size: 25px;
+                    font-family:'Tahoma';
+                    color: antiquewhite;
+                    text-align: center;                
+                }
+            </style>
+        </footer>
+
+    <style>
+        h2 {
+            font-size: 50px;
+            font-family:'Tahoma';
+            color: antiquewhite;
+            padding-left: 20px; }
+
+        h3 {
+            font-size: 30px;
+            font-family:'Tahoma';
+            color: antiquewhite;
+            padding-left: 20px; }
+
+        p {
+            font-size: 20px;
+            color: antiquewhite;
+            padding-left: 20px; }
+
+        .contact-us-li {
+            color: antiquewhite; }
+        
+        td {
+            color: antiquewhite; }
+
+        hr {
+            border: 2px solid yellow;
+            border-radius: 5px;
+            padding-left: 20px; }
+    </style>
+        
+<hr>
+
+<br><br>
+
+<embed src="medias/y2mate.com - Fredji  Happy Lif Vlog No Copyright Music 1 Hour.mp3" loop="true" autostart="true" width="2" height="0">
+
+</div>
+
+</html>
