@@ -1,4 +1,4 @@
-# tanlims-cinemas
+# TanLims Cinema
 Movies' Tickets Marketing Website
 
 Eugene Tan Yu Xian
