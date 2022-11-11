@@ -9,4 +9,4 @@
 
  - [Lim Fang Chern](https://github.com/thomaslimfc)
  - [Eugene Tan Yu Xian](https://github.com/Eugenetyx)
- - [Lim Meng Fu]
+ - Lim Meng Fu
