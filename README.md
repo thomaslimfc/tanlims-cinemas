@@ -1,6 +1,12 @@
-# TanLims Cinema
-Movies' Tickets Marketing Website
+# TanLims Cinemas
 
-Eugene Tan Yu Xian
+- Foundation in Computing (Track A) - [TARUC Penang Branch Campus]
+- Course: FPIT1064 Web Development (Semester 2)
+- Assignment Title: Movies' Tickets Marketing Website
+- Grade: A-
 
-Lim Meng Fu
+## Team Members
+
+ - [Lim Fang Chern](https://github.com/thomaslimfc)
+ - [Eugene Tan Yu Xian](https://github.com/Eugenetyx)
+ - [Lim Meng Fu]
